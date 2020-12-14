@@ -32,6 +32,6 @@ class Square extends Polygon {
     return this.params.every(e => e === this.params[0])
   }
   get area(){
-    return params[1]*params[0]
+    return this.params[1] * this.params[0]
   }
 }
