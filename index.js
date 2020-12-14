@@ -23,7 +23,3 @@ class Triangle extends Polygon {
     }
   }
 }
-
-s1 = 3
-s2 = 4
-s3 = 9
