@@ -29,6 +29,8 @@ class Triangle extends Polygon {
 
 class Square extends Polygon {
   get isValid(){
-    
+    if (this.params.every(function(e) {
+      return e === this.params[0]
+    }))
   }
 }
