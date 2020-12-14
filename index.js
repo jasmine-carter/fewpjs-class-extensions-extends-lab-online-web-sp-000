@@ -21,5 +21,8 @@ class Triangle extends Polygon {
     if (this.params[0] + this.params[1] > this.params[2] && this.params[1] + this.params[2] > this.params[0]) {
       return true
     }
+    else{
+      return false
+    }
   }
 }
