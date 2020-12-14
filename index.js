@@ -9,7 +9,7 @@ class Polygon {
 
   get perimeter(){
     let perimeter = 0
-    for (element in this.params){
+    for (element of this.params){
       perimeter = perimeter + element
     }
     return perimeter
