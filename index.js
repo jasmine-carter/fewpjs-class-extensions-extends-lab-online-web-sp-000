@@ -31,4 +31,7 @@ class Square extends Polygon {
   get isValid(){
     return this.params.every(e => e === this.params[0])
   }
+  get area(){
+    return params[1]*params[0]
+  }
 }
